@@ -3,27 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A7C6B7FA52B5C41B6D3F565 /* Pods_Money_Saver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3843364AE2906D6C645C760 /* Pods_Money_Saver.framework */; };
 		FA282E02279808F6003107CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA282E01279808F6003107CF /* AppDelegate.swift */; };
-		FA282E04279808F6003107CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA282E03279808F6003107CF /* SceneDelegate.swift */; };
 		FA282E06279808F6003107CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA282E05279808F6003107CF /* ViewController.swift */; };
-		FA282E09279808F6003107CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA282E07279808F6003107CF /* Main.storyboard */; };
 		FA282E0B279808F8003107CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA282E0A279808F8003107CF /* Assets.xcassets */; };
 		FA282E0E279808F8003107CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA282E0C279808F8003107CF /* LaunchScreen.storyboard */; };
+		FA8A08DE27ABD1C300551C8F /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8A08DD27ABD1C300551C8F /* AppCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5550E6FDC7CDB3A5EB6A8112 /* Pods-Money Saver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Money Saver.debug.xcconfig"; path = "Target Support Files/Pods-Money Saver/Pods-Money Saver.debug.xcconfig"; sourceTree = "<group>"; };
+		72D56A5023A2EC5B22B6920E /* Pods-Money Saver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Money Saver.release.xcconfig"; path = "Target Support Files/Pods-Money Saver/Pods-Money Saver.release.xcconfig"; sourceTree = "<group>"; };
+		E3843364AE2906D6C645C760 /* Pods_Money_Saver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Money_Saver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA282DFE279808F6003107CF /* Money Saver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Money Saver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA282E01279808F6003107CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FA282E03279808F6003107CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FA282E05279808F6003107CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FA282E08279808F6003107CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA282E0A279808F8003107CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA282E0D279808F8003107CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA282E0F279808F8003107CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA8A08DD27ABD1C300551C8F /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +33,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A7C6B7FA52B5C41B6D3F565 /* Pods_Money_Saver.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5723EABA4ABBAA33D972E5D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3843364AE2906D6C645C760 /* Pods_Money_Saver.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D45F7916FFCDA8DC95D094C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5550E6FDC7CDB3A5EB6A8112 /* Pods-Money Saver.debug.xcconfig */,
+				72D56A5023A2EC5B22B6920E /* Pods-Money Saver.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FA282DF5279808F6003107CF = {
 			isa = PBXGroup;
 			children = (
 				FA282E00279808F6003107CF /* Money Saver */,
 				FA282DFF279808F6003107CF /* Products */,
+				D45F7916FFCDA8DC95D094C5 /* Pods */,
+				5723EABA4ABBAA33D972E5D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +78,30 @@
 		FA282E00279808F6003107CF /* Money Saver */ = {
 			isa = PBXGroup;
 			children = (
-				FA282E01279808F6003107CF /* AppDelegate.swift */,
-				FA282E03279808F6003107CF /* SceneDelegate.swift */,
-				FA282E05279808F6003107CF /* ViewController.swift */,
-				FA282E07279808F6003107CF /* Main.storyboard */,
-				FA282E0A279808F8003107CF /* Assets.xcassets */,
-				FA282E0C279808F8003107CF /* LaunchScreen.storyboard */,
+				FA8A08DC27ABD15F00551C8F /* Resources */,
+				FA8A08DB27ABD10200551C8F /* Classes */,
 				FA282E0F279808F8003107CF /* Info.plist */,
 			);
 			path = "Money Saver";
+			sourceTree = "<group>";
+		};
+		FA8A08DB27ABD10200551C8F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FA282E05279808F6003107CF /* ViewController.swift */,
+				FA282E01279808F6003107CF /* AppDelegate.swift */,
+				FA8A08DD27ABD1C300551C8F /* AppCoordinator.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FA8A08DC27ABD15F00551C8F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FA282E0C279808F8003107CF /* LaunchScreen.storyboard */,
+				FA282E0A279808F8003107CF /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +111,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA282E12279808F8003107CF /* Build configuration list for PBXNativeTarget "Money Saver" */;
 			buildPhases = (
+				8BE37C5A740B34809B26F01B /* [CP] Check Pods Manifest.lock */,
 				FA282DFA279808F6003107CF /* Sources */,
 				FA282DFB279808F6003107CF /* Frameworks */,
 				FA282DFC279808F6003107CF /* Resources */,
+				74735A9B3BAD465F4636149E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,34 +165,67 @@
 			files = (
 				FA282E0E279808F8003107CF /* LaunchScreen.storyboard in Resources */,
 				FA282E0B279808F8003107CF /* Assets.xcassets in Resources */,
-				FA282E09279808F6003107CF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		74735A9B3BAD465F4636149E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Money Saver/Pods-Money Saver-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Money Saver/Pods-Money Saver-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Money Saver/Pods-Money Saver-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BE37C5A740B34809B26F01B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Money Saver-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FA282DFA279808F6003107CF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA8A08DE27ABD1C300551C8F /* AppCoordinator.swift in Sources */,
 				FA282E06279808F6003107CF /* ViewController.swift in Sources */,
 				FA282E02279808F6003107CF /* AppDelegate.swift in Sources */,
-				FA282E04279808F6003107CF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FA282E07279808F6003107CF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FA282E08279808F6003107CF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FA282E0C279808F8003107CF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +355,7 @@
 		};
 		FA282E13279808F8003107CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5550E6FDC7CDB3A5EB6A8112 /* Pods-Money Saver.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +375,7 @@
 		};
 		FA282E14279808F8003107CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72D56A5023A2EC5B22B6920E /* Pods-Money Saver.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
