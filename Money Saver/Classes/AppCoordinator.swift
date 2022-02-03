@@ -8,18 +8,17 @@
 import UIKit
 
 class AppCoordinator: NSObject {
-    
+    var rootWireFrame: DemoWireframe?
     func setupApplication(launchOptions: [UIApplication.LaunchOptionsKey: Any]?, inWindow window: UIWindow) {
-     
+        
         self.installRootViewControllerIntoWindow(window)
         window.tintColor = UIColor.red
         window.makeKeyAndVisible()
     }
     
     func installRootViewControllerIntoWindow(_ window: UIWindow){
-        let mainViewController = ViewController()
-        let navigationController = UINavigationController(rootViewController: mainViewController)
-        window.rootViewController = navigationController
+        rootWireFrame = DemoWireframe()
+        rootWireFrame?.presentDemoInterfaceFromWindow(window)
     }
     
 }
