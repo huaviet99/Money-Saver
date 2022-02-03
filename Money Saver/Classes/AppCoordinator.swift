@@ -8,7 +8,7 @@
 import UIKit
 
 class AppCoordinator: NSObject {
-    var rootWireFrame: DemoWireframe?
+    var rootWireFrame: LoginWireframe?
     func setupApplication(launchOptions: [UIApplication.LaunchOptionsKey: Any]?, inWindow window: UIWindow) {
         
         self.installRootViewControllerIntoWindow(window)
@@ -17,8 +17,8 @@ class AppCoordinator: NSObject {
     }
     
     func installRootViewControllerIntoWindow(_ window: UIWindow){
-        rootWireFrame = DemoWireframe()
-        rootWireFrame?.presentDemoInterfaceFromWindow(window)
+        rootWireFrame = LoginWireframe()
+        rootWireFrame?.presentLoginInterfaceFromWindow(window)
     }
     
 }

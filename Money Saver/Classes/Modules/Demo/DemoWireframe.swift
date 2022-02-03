@@ -8,19 +8,22 @@
 import UIKit
 
 class DemoWireframe: Wireframe {
-    private var demoViewModel: DemoViewModel
     var mainViewController: UIViewController?
     
-    init() {
-        demoViewModel = DemoViewModel()
-    }
-    
-    func presentDemoInterfaceFromWindow(_ window: UIWindow){
-        let demoViewController  = DemoViewController()
-        demoViewController.demoViewModel = demoViewModel
+    //Modal
+    func presentDemoInterfaceFromViewController(_ parentViewController: UIViewController, animated: Bool, completion: (() -> Void)? = nil) {
+        let demoViewController = DemoViewController()
         self.mainViewController = demoViewController
         
         let navigationController = UINavigationController(rootViewController: self.mainViewController!)
-        window.rootViewController = navigationController
+        parentViewController.present(navigationController, animated: animated, completion: completion)
+    }
+    
+    //New Interface
+    func pushDemoInterfaceFromViewController(_ parentViewController: UIViewController, animated: Bool, completion: (() -> Void)? = nil) {
+        let demoViewController = DemoViewController()
+        self.mainViewController = demoViewController
+        
+        parentViewController.navigationController?.pushViewController(self.mainViewController!, animated: animated)
     }
 }
