@@ -19,7 +19,7 @@ class DemoViewController: UIViewController {
     private func setupUI() {
         self.view.backgroundColor = .white
 
-        demoText.text = "Demo Screen"
+        demoText.text = L10n.welcome
         demoText.textColor = .red
         self.view.addSubview(demoText)
         demoText.snp.makeConstraints { make in
