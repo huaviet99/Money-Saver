@@ -10,6 +10,16 @@
 		2A7C6B7FA52B5C41B6D3F565 /* Pods_Money_Saver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3843364AE2906D6C645C760 /* Pods_Money_Saver.framework */; };
 		FA282E0B279808F8003107CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA282E0A279808F8003107CF /* Assets.xcassets */; };
 		FA282E0E279808F8003107CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA282E0C279808F8003107CF /* LaunchScreen.storyboard */; };
+		FAA9466C27B8BA030026C438 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA9466B27B8BA030026C438 /* CoreDataStack.swift */; };
+		FAA9466F27B8BC390026C438 /* CoreDataStackConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA9466E27B8BC390026C438 /* CoreDataStackConfig.swift */; };
+		FAA9467327B8BDA60026C438 /* CoreDataStackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA9467227B8BDA60026C438 /* CoreDataStackManager.swift */; };
+		FAA9467727B8BE880026C438 /* MoneySaverApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA9467627B8BE880026C438 /* MoneySaverApplication.swift */; };
+		FAA9467C27B8C1970026C438 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA9467B27B8C1970026C438 /* Globals.swift */; };
+		FAA9468727B8C5480026C438 /* DataStoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA9468627B8C5480026C438 /* DataStoreManager.swift */; };
+		FAA9468D27B8C7630026C438 /* MoneySaver.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAA9468B27B8C7630026C438 /* MoneySaver.xcdatamodeld */; };
+		FAA9469D27B8C91F0026C438 /* ManagedDemo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA9469B27B8C91F0026C438 /* ManagedDemo+CoreDataClass.swift */; };
+		FAA9469E27B8C91F0026C438 /* ManagedDemo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA9469C27B8C91F0026C438 /* ManagedDemo+CoreDataProperties.swift */; };
+		FAA946A127B8CEA10026C438 /* DemoDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA946A027B8CEA10026C438 /* DemoDataManager.swift */; };
 		FAF88FF627AD20F300662EDC /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF88FE827AD20F300662EDC /* AppCoordinator.swift */; };
 		FAF88FF827AD20F300662EDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF88FEC27AD20F300662EDC /* AppDelegate.swift */; };
 		FAF88FF927AD20F300662EDC /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF88FEF27AD20F300662EDC /* DemoViewController.swift */; };
@@ -31,6 +41,16 @@
 		FA282E0A279808F8003107CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA282E0D279808F8003107CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA282E0F279808F8003107CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA9466B27B8BA030026C438 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		FAA9466E27B8BC390026C438 /* CoreDataStackConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStackConfig.swift; sourceTree = "<group>"; };
+		FAA9467227B8BDA60026C438 /* CoreDataStackManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStackManager.swift; sourceTree = "<group>"; };
+		FAA9467627B8BE880026C438 /* MoneySaverApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneySaverApplication.swift; sourceTree = "<group>"; };
+		FAA9467B27B8C1970026C438 /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Globals.swift; path = "Money Saver/Classes/Common/Ultilities/Globals.swift"; sourceTree = SOURCE_ROOT; };
+		FAA9468627B8C5480026C438 /* DataStoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStoreManager.swift; sourceTree = "<group>"; };
+		FAA9468C27B8C7630026C438 /* MoneySaver.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MoneySaver.xcdatamodel; sourceTree = "<group>"; };
+		FAA9469B27B8C91F0026C438 /* ManagedDemo+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ManagedDemo+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FAA9469C27B8C91F0026C438 /* ManagedDemo+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ManagedDemo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FAA946A027B8CEA10026C438 /* DemoDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoDataManager.swift; sourceTree = "<group>"; };
 		FAF88FE827AD20F300662EDC /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		FAF88FEC27AD20F300662EDC /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAF88FEF27AD20F300662EDC /* DemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +97,7 @@
 		FA282DF5279808F6003107CF = {
 			isa = PBXGroup;
 			children = (
+				FAA9466A27B8B9DE0026C438 /* CoreDataKit */,
 				FA2B4DEE27ABFCE3002D0F38 /* Shared */,
 				FA282E00279808F6003107CF /* Money Saver */,
 				FA282DFF279808F6003107CF /* Products */,
@@ -97,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				FAF88FE727AD20F300662EDC /* Classes */,
+				FAF88FED27AD20F300662EDC /* Modules */,
 				FA8A08DC27ABD15F00551C8F /* Resources */,
 				FA282E0F279808F8003107CF /* Info.plist */,
 			);
@@ -106,6 +128,7 @@
 		FA2B4DEE27ABFCE3002D0F38 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				FAA9467A27B8C14D0026C438 /* Ultilities */,
 				FAF8901727AD21FC00662EDC /* Router */,
 				FAF88FBA27AD1D2500662EDC /* Generated */,
 			);
@@ -122,6 +145,52 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		FAA9466A27B8B9DE0026C438 /* CoreDataKit */ = {
+			isa = PBXGroup;
+			children = (
+				FAA9468A27B8C73A0026C438 /* Entities */,
+				FAA9468527B8C5320026C438 /* Store */,
+				FAA9467127B8BD740026C438 /* Core */,
+				FAA9468B27B8C7630026C438 /* MoneySaver.xcdatamodeld */,
+			);
+			path = CoreDataKit;
+			sourceTree = "<group>";
+		};
+		FAA9467127B8BD740026C438 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FAA9466E27B8BC390026C438 /* CoreDataStackConfig.swift */,
+				FAA9466B27B8BA030026C438 /* CoreDataStack.swift */,
+				FAA9467227B8BDA60026C438 /* CoreDataStackManager.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		FAA9467A27B8C14D0026C438 /* Ultilities */ = {
+			isa = PBXGroup;
+			children = (
+				FAA9467B27B8C1970026C438 /* Globals.swift */,
+			);
+			name = Ultilities;
+			sourceTree = "<group>";
+		};
+		FAA9468527B8C5320026C438 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				FAA9468627B8C5480026C438 /* DataStoreManager.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		FAA9468A27B8C73A0026C438 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				FAA9469B27B8C91F0026C438 /* ManagedDemo+CoreDataClass.swift */,
+				FAA9469C27B8C91F0026C438 /* ManagedDemo+CoreDataProperties.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
 		FAF88FBA27AD1D2500662EDC /* Generated */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,7 +204,7 @@
 			children = (
 				FAF88FE827AD20F300662EDC /* AppCoordinator.swift */,
 				FAF88FEC27AD20F300662EDC /* AppDelegate.swift */,
-				FAF88FED27AD20F300662EDC /* Modules */,
+				FAA9467627B8BE880026C438 /* MoneySaverApplication.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -155,6 +224,7 @@
 				FAF88FEF27AD20F300662EDC /* DemoViewController.swift */,
 				FAF88FF027AD20F300662EDC /* DemoWireframe.swift */,
 				FAF88FF127AD20F300662EDC /* DemoViewModel.swift */,
+				FAA946A027B8CEA10026C438 /* DemoDataManager.swift */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -324,10 +394,20 @@
 				FAF8900E27AD217C00662EDC /* Strings+Generated.swift in Sources */,
 				FAF88FFE27AD20F300662EDC /* LoginViewController.swift in Sources */,
 				FAF88FF827AD20F300662EDC /* AppDelegate.swift in Sources */,
+				FAA9468727B8C5480026C438 /* DataStoreManager.swift in Sources */,
 				FAF88FFB27AD20F300662EDC /* DemoViewModel.swift in Sources */,
 				FAF88FFD27AD20F300662EDC /* LoginWireframe.swift in Sources */,
+				FAA946A127B8CEA10026C438 /* DemoDataManager.swift in Sources */,
 				FAF88FF627AD20F300662EDC /* AppCoordinator.swift in Sources */,
+				FAA9466C27B8BA030026C438 /* CoreDataStack.swift in Sources */,
+				FAA9467727B8BE880026C438 /* MoneySaverApplication.swift in Sources */,
+				FAA9468D27B8C7630026C438 /* MoneySaver.xcdatamodeld in Sources */,
+				FAA9467C27B8C1970026C438 /* Globals.swift in Sources */,
+				FAA9469E27B8C91F0026C438 /* ManagedDemo+CoreDataProperties.swift in Sources */,
+				FAA9466F27B8BC390026C438 /* CoreDataStackConfig.swift in Sources */,
 				FAF8901927AD21FC00662EDC /* WireframeProtocol.swift in Sources */,
+				FAA9467327B8BDA60026C438 /* CoreDataStackManager.swift in Sources */,
+				FAA9469D27B8C91F0026C438 /* ManagedDemo+CoreDataClass.swift in Sources */,
 				FAF88FFA27AD20F300662EDC /* DemoWireframe.swift in Sources */,
 				FAF88FF927AD20F300662EDC /* DemoViewController.swift in Sources */,
 				FAF88FFC27AD20F300662EDC /* LoginViewModel.swift in Sources */,
@@ -484,6 +564,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PP8V8Y78PA;
 				INFOPLIST_FILE = "Money Saver/Info.plist";
+				INFO_APP_GROUP_ID = "group.moneysaver.remote.universal.ios-staging";
+				INFO_SERVICE_NAME = MoneySaver;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -504,6 +586,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PP8V8Y78PA;
 				INFOPLIST_FILE = "Money Saver/Info.plist";
+				INFO_APP_GROUP_ID = "group.moneysaver.remote.universal.ios-staging";
+				INFO_SERVICE_NAME = MoneySaver;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -537,6 +621,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FAA9468B27B8C7630026C438 /* MoneySaver.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FAA9468C27B8C7630026C438 /* MoneySaver.xcdatamodel */,
+			);
+			currentVersion = FAA9468C27B8C7630026C438 /* MoneySaver.xcdatamodel */;
+			path = MoneySaver.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = FA282DF6279808F6003107CF /* Project object */;
 }
